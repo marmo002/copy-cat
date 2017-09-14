@@ -1,0 +1,132 @@
+
+html {
+  font-size: 1.2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  height: 60px;
+  line-height: 60px;
+  background: #06D6A0;
+  padding: 0 20px;
+}
+
+  header h1 {
+    display: inline;
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px;
+  }
+    nav {
+      float: right;
+    }
+
+      header ul {}
+
+        header li {
+          float: left;
+          margin-left: 10px;
+        }
+          header a {
+            text-transform: capitalize;
+          }
+
+  main {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+    .first {
+      background: #26547C;
+      padding: 0;
+    }
+      .first img {
+        width: 60%;
+      }
+
+      .first h1 {
+        color: white;
+        float: right;
+        width: 40%;
+        text-align: center;
+        font-size: 1.6em;
+        margin-top: 20px;
+        }
+
+      section {
+        float: left;
+        overflow: hidden;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .cats {
+        background:#FFD166;
+      }
+
+        section h2 {
+          text-transform: capitalize;
+          font-weight: bold;
+          margin: 20px 0;
+        }
+
+        section p {
+          margin-bottom: 10px;
+        }
+
+        .products {
+          background: #F2F2F2;
+        }
+
+          .products ul {
+            float: left;
+            overflow: hidden;
+            margin-top: 10px;
+          }
+
+          .products li {
+            float: left;
+            width: 30%;
+            margin: 0 1% 20px;
+            border: solid 2px black;
+          }
+            .products img {
+              width: 100%;
+            }
+        .about {
+          background: #26547C;
+        }
+
+          .words {
+            /*border: solid 1px red;*/
+            overflow: hidden;
+            margin:0 0 20px;
+          }
+            .word {
+              float: left;
+              width: 30%;
+            }
+              .word h3 {
+                text-align: center;
+                text-transform: uppercase;
+                color: #EF476F;
+              }
+
+          .about p {
+            color: white;
+          }
+
+    footer {
+      float: left;
+      /*overflow: hidden;*/
+      background-color: #06D6A0;
+      height: 50px;
+      line-height: 50px;
+      width: 100%;
+    }
+
+      footer p {
+        text-align: right;
+        margin-right: 20px;
+      }
